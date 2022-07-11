@@ -163,20 +163,20 @@
 * [tauri](https://github.com/tauri-apps/tauri) 类似于electron,不过速度性能都比electron强
 
 ## ts/js项目
-* [simple-peer](https://github.com/feross/simple-peer)
-* [deskreen][https://github.com/pavlobu/deskreen]
+* [simple-peer](https://github.com/feross/simple-peer) 对webrtc接口做了封装，使调用更简单了
+* [deskreen](https://github.com/pavlobu/deskreen) 基于webrtc的投屏器，通过浏览器将桌面投到其他设备上
 
 ## c#项目
 * [Wox](https://github.com/Wox-launcher/Wox) windows启动器
 
 ## java/kotlin项目
-* [dbeaver](https://github.com/dbeaver/dbeaver)
-* [libgdx](https://github.com/libgdx/libgdx)
+* [dbeaver](https://github.com/dbeaver/dbeaver) java开发的数据库连接客户端
+* [libgdx](https://github.com/libgdx/libgdx) 基于java的跨平台游戏开发框架
 
 ## python项目
-* [flask](https://github.com/pallets/flask)
-* [django](https://github.com/django/django)
-* [scrapy](https://github.com/scrapy/scrapy)
+* [flask](https://github.com/pallets/flask) python web引擎
+* [django](https://github.com/django/django) python web引擎
+* [scrapy](https://github.com/scrapy/scrapy) 爬虫引擎功能很全
 
 ## dart项目
 * [dio](https://github.com/flutterchina/dio) dart http网络库
