@@ -59,7 +59,7 @@
 * [mediapipe](https://github.com/google/mediapipe) google开源的推理框架，谁用谁知道，确实是快
 * [ncnn](https://github.com/Tencent/ncnn) 腾讯开源的推理框架，移动端很快
 * [mnn](https://github.com/alibaba/MNN) 阿里开源的推理框架
-* [mace](https://github.com/XiaoMi/mace) 小米开源的深度学习框架
+* [mace](https://github.com/XiaoMi/mace) 小米开源的模型推理框架
 * [Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) 百度开源的推理框架
 * [lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) 把一些推理框架做了封装的工具库
 * [libfacedetection](https://github.com/ShiqiYu/libfacedetection) yushiqi开源的人脸检测工具
@@ -67,7 +67,7 @@
 
 ### 语音识别/深度学习
 * [kaldi](https://github.com/kaldi-asr/kaldi) 语音识别方面必知必会的库，以前研究过一段时间，程序不怎么用修改，需要修改shell脚本，而且训练的比较慢，我所属的公司都是快节奏的公司，后来就直接改用其他公司产品了，就再没有研究过
-* [wenet](https://github.com/wenet-e2e/wenet) 国内某公司开源的语音识别系统，pytorch使用pytorch推理效果比自己训练的kaidi好
+* [wenet](https://github.com/wenet-e2e/wenet) 国内某公司开源的语音识别系统，使用pytorch推理，效果比自己训练的kaidi好
 * [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) 百度开源的语音识别项目，效果比wenet好
 * [DeepSpeech](https://github.com/mozilla/DeepSpeech) 语音识别项目
 * [audacity](https://github.com/audacity/audacity) 语料分析调整工具
