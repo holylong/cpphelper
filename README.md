@@ -133,11 +133,11 @@
 * [gcc](https://github.com/gcc-mirror/gcc) gcc编译器
 * [llvm](https://github.com/llvm/llvm-project) llvm编译套件
 
-
 ### 工具库
 * [folly](https://github.com/facebook/folly) facebook开源的基础库
 * [abseil-cpp](https://github.com/abseil/abseil-cpp) google开源的基础库
 * [boost](https://github.com/boostorg/boost) boost工具库
+* [concurrentqueue](https://github.com/cameron314/concurrentqueue) 并发队列
 
 ### 构建工具
 * [cmake](https://github.com/Kitware/CMake) 跨平台构建工具，用的最广泛的工具，android/linux/windows几乎哪都再用
