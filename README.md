@@ -41,6 +41,11 @@
 * [media-server](https://github.com/medooze/media-server) 基于webrtc的服务器
 * [freeswitch](https://github.com/signalwire/freeswitch) voip视频会议服务器
 * [kamailio](https://github.com/kamailio/kamailio) sip注册服务器，编译安装配置好以后，下载个linphone就可以局域网视频通话，配置个rtpengine也可以转发rtp视频流
+* [osip](https://www.antisip.com/download/exosip2/libosip2-5.3.0.tar.gz) sip信令封装库
+* [exosip](http://savannah.nongnu.org/projects/exosip/) osip的C++封装
+* [pjsip](https://www.pjsip.org/) sip信令封装库
+* [jrtplib](https://github.com/j0r1/JRTPLIB) rtp封装库，对接国标GB28181用过
+* [ortp](https://github.com/BelledonneCommunications/ortp) linphone用到的rtp封装库
 
 ### 压缩库
 * [p7zip](https://www.7-zip.org/) 俄罗斯同志开发的压缩解压算法库，并提供安装程序，很出名养了一大批同类软件
@@ -109,6 +114,7 @@
 * [curl](https://github.com/curl/curl) http客户端项目
 * [librdkafka](https://github.com/edenhill/librdkafka) 读写kafka服务器的client,以前搞大数据是用过
 * [zmq](https://github.com/zeromq/libzmq) 与其他mq项目不同，zmq是以库的形式提供
+* [live555](http://live555.com/) 在接入rtsp相机用过的项目
 
 ### 数据库
 * [postgresql](https://github.com/postgres/postgres) 很流行的sql服务器
