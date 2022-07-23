@@ -127,7 +127,7 @@
 * [qemu](https://github.com/qemu/qemu) ffmpeg作者开源的模拟器，据说可以达到真机效果
 * [virtualbox](https://www.virtualbox.org/) oracle开源的x86模拟器
 * [botchs](https://sourceforge.net/projects/bochs/) x86模拟器
-* [anbox](https://github.com/anbox/anbox) 感觉像是一个把android虚拟机跑在linux上的东西，android上的每个程序直接会知道linux gui上
+* [anbox](https://github.com/anbox/anbox) 感觉像是一个把android虚拟机跑在linux上的东西，android上的每个程序直接绘制在linux gui上
 
 ### 编译器
 * [gcc](https://github.com/gcc-mirror/gcc) gcc编译器
@@ -148,6 +148,10 @@
 * [chromium](https://www.chromium.org/chromium-projects/) chrome浏览器开源项目，很多项目都是这个项目的子项目
 * [v8](https://github.com/v8/v8) chromium项目的子项目
 * [nodejs](https://github.com/nodejs/node) 基于v8开发的让js独立于浏览器运行的开发平台
+
+### 无分类工具
+* [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 计算机网速流量检测工具，cmake构建的版本[TrafficMonitor](https://github.com/holylong/TrafficMonitor)
+* [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) 状态栏透明
 
 ## golang项目
 * [frp](https://github.com/fatedier/frp) 代理工具将局域网主机暴露到公网上，远程办公必备
