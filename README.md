@@ -162,6 +162,7 @@
 ## golang项目
 * [frp](https://github.com/fatedier/frp) 代理工具将局域网主机暴露到公网上，远程办公必备
 * [caddy](https://github.com/caddyserver/caddy) nginx的golang版本
+* [syncthing](https://github.com/syncthing/syncthing) 文件同步工具
 * [docker](https://github.com/moby/moby) 轻量级虚拟机，相当于从软件层面的虚拟化，很方便
 * [k8s](https://github.com/kubernetes/kubernetes) google开源的用于管理云平台中多个主机上的容器化的应用
 * [minikube](https://github.com/kubernetes/minikube) k8s的单机版本
@@ -191,3 +192,7 @@
 ## dart项目
 * [dio](https://github.com/flutterchina/dio) dart http网络库
 * [Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) flutter开发的跨平台界面，在andriod/windows跑过，ui设计的不错，就是给人一种卡顿的感觉
+
+## php项目
+* [nextcloud](https://github.com/nextcloud/server) 私人网盘,docker部署起来很方便
+* [zentaopms](https://github.com/easysoft/zentaopms) 开源项目管理软件
