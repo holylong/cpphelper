@@ -25,7 +25,7 @@
 * [tigervnc](https://github.com/TigerVNC/tigervnc) 开源的vnc客户端与服务端
 
 ### 音视频开发
-* [ffmpeg](https://github.com/ffmpeg/ffmpeg) 从事音视频开发必备库，avformat混流分流何种协议封装，avcodec音视频编辑器封装
+* [ffmpeg](https://github.com/ffmpeg/ffmpeg) 从事音视频开发必备库，avformat混流分流何种协议封装，avcodec音视频编辑器封装,ffplay.exe 是一个万能播放器，ffmpeg.exe 是个超级音视频处理工具，格式工厂就是把这个工具封装了一个界面，ffprobe码流分析工具
 * [openh264](https://github.com/cisco/openh264) 思科开源的h264编解码库，号称最快，没有具体测试过
 * [x264](https://github.com/mirror/x264) h264编解码库
 * [libvpx](https://github.com/webmproject/libvpx) vp8/vp9编解码库
@@ -53,7 +53,7 @@
 
 ### 计算机视觉/深度学习
 * [opencv](https://github.com/opencv/opencv) intel开源的图像处理库，里边包含了何种图像处理的算法，简单的人脸识别，抠图，图像拼接，边缘检测等等，还有dnn模块可以加载其他深度学习框架训练的模型进行推理，内部封装了ffmpeg,libjpg,libpng，支持图像io,视频io，很强大的C++计算机视觉库
-* [dlib](https://github.com/davisking/dlib) 人脸检测识别库，里边包含很多功能
+* [dlib](https://github.com/davisking/dlib) 通用工具库，包含人脸识别/检测 json解析，网络,GUI等功能，里边包含很多功能
 * [PaddlePaddle](https://github.com/PaddlePaddle/Paddle) 百度开源的深度学习框架，没有用这个训练过东西
 * [pytorch](https://github.com/pytorch/pytorch) facebook开源的深度学习框架，目前学术界最流行的
 * [tensorflow](https://github.com/tensorflow/tensorflow) google开源的深度学习框架
@@ -91,6 +91,14 @@
 ### 游戏
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x) cocos2d-x是一个C++开发的跨平台游戏开发库，现在游戏开发用cocos的应该比较少，大部分都是unity/ue4
 * [UnrealEngine](https://github.com/EpicGames/UnrealEngine) 渲染效果最好的游戏引擎
+
+## 直播
+* [obs-studio](https://github.com/obsproject/obs-studio) 很厉害的推流工具，使用qt开发的界面，UI设计的很漂亮，使用也特别简单，可以录屏，虚拟相机，推流，ndi等功能，插件化开发代码也很不错
+
+## IM工具
+* [tdesktop](https://github.com/telegramdesktop/tdesktop) telegramdesktop官方的桌面客户端，编译起来比较费劲，代码和功能都优秀
+* [teamgram-tdesktop](https://github.com/teamgram/teamgram-tdesktop) 开源teamgram-server开的tdesktop分支
+* [flamingo](https://github.com/balloonwj/flamingo) 开源im,包含server desktop android三个子项目
 
 ### 序列化
 * [protobuf](https://github.com/protocolbuffers/protobuf) 很常用的序列化工具，具有比json占用空间小，编解速度快的特点
@@ -133,7 +141,7 @@
 * [qemu](https://github.com/qemu/qemu) ffmpeg作者开源的模拟器，据说可以达到真机效果
 * [virtualbox](https://www.virtualbox.org/) oracle开源的x86模拟器
 * [botchs](https://sourceforge.net/projects/bochs/) x86模拟器
-* [anbox](https://github.com/anbox/anbox) 感觉像是一个把android虚拟机跑在linux上的东西，android上的每个程序直接绘制在linux gui上
+* [anbox](https://github.com/anbox/anbox) 感觉像是一个把android虚拟机跑在linux上的东西，类似于docker，把每个安卓程序轻量级的跑在x86 linux主机上，android上的每个程序直接绘制在linux gui上
 
 ### 编译器
 * [gcc](https://github.com/gcc-mirror/gcc) gcc编译器
@@ -167,9 +175,10 @@
 * [k8s](https://github.com/kubernetes/kubernetes) google开源的用于管理云平台中多个主机上的容器化的应用
 * [minikube](https://github.com/kubernetes/minikube) k8s的单机版本
 * [Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server) 微信前团队开源的im服务器
+* [teamgram-server](https://github.com/teamgram/teamgram-server) golang开发的开源telegram sever 
 
 ## rust项目
-* [rustdesk](https://github.com/rustdesk/rustdesk) rust开发的远程客户端，服务端不开源
+* [rustdesk](https://github.com/rustdesk/rustdesk) rust开发的远程客户端，服务端同样开源
 * [yew](https://github.com/yewstack/yew) rust前端开发框架类似于react
 * [tauri](https://github.com/tauri-apps/tauri) 类似于electron,不过速度性能都比electron强
 
