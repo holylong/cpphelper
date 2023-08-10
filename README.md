@@ -3,6 +3,8 @@
   主要都是平常用到的，包含windows开发、android开发、后台开发、音视频开发、深度学习等等
 
   最后还附带几个其他语言开发的比较好的项目
+  
+  持续更新中...
 ```
 ### GUI开发
 * [qt](https://github.com/qt/qt5) 跨平台开发库，内部封装了各种跨平台工具，但是大多数情况下都被用作开发跨平台客户端
@@ -23,6 +25,7 @@
 * [synergy](https://github.com/symless/synergy-core) 效率工具，用一台机器共享鼠标键盘控制多台其他计算机，gui配置要激活，我一般直接用控制台启动，具体配置及启动方式请移步[synergy控制台启动](https://blog.csdn.net/CHNIM/article/details/125718255?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22125718255%22%2C%22source%22%3A%22CHNIM%22%7D&ctrtid=9tgLN)
 * [QtScrcpy](https://github.com/barry-ran/QtScrcpy) 将synergy的gui用QT重写了并做了增强
 * [tigervnc](https://github.com/TigerVNC/tigervnc) 开源的vnc客户端与服务端
+* [webrtc-streamer](https://github.com/mpromonet/webrtc-streamer)严格来说这不是远程工具，不能控制，是一个C/C++写的基于webrtc的投屏工具，类似于deskreen,服务器启动后，在其他机器上打开浏览器输入网址，就可以选择需要显示的窗口了
 
 ### 音视频开发
 * [ffmpeg](https://github.com/ffmpeg/ffmpeg) 从事音视频开发必备库，avformat混流分流何种协议封装，avcodec音视频编辑器封装,ffplay.exe 是一个万能播放器，ffmpeg.exe 是个超级音视频处理工具，格式工厂就是把这个工具封装了一个界面，ffprobe码流分析工具
@@ -87,15 +90,19 @@
 * [lighttpd](https://github.com/lighttpd/lighttpd1.4) 轻量级的web服务器
 * [memcached](https://github.com/memcached/memcached) 缓存服务器，类似于redis
 * [kbengine](https://github.com/kbengine/kbengine) C++开发的游戏服务器
+* [civetweb](https://github.com/civetweb/civetweb.git) 小web服务器，我们在嵌入式设备上用的web服务器
+* [mongoose](https://github.com/cesanta/mongoose.git) 小web服务器，可以在嵌入式设备上用
+* [Tinyhttpd](https://github.com/EZLippi/Tinyhttpd.git)很小的web服务器，小到功能都不全，就几百行代码，只能打开纯文本网页，有图片的话打开很乱，当时改了半天才给改完整
+* [darkhttp](https://github.com/emikulic/darkhttpd.git) 只有一个源文件的web服务器，2000多行代码，功能很全，可以打开有图片的网页
 
 ### 游戏
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x) cocos2d-x是一个C++开发的跨平台游戏开发库，现在游戏开发用cocos的应该比较少，大部分都是unity/ue4
 * [UnrealEngine](https://github.com/EpicGames/UnrealEngine) 渲染效果最好的游戏引擎
 
-## 直播
+### 直播
 * [obs-studio](https://github.com/obsproject/obs-studio) 很厉害的推流工具，使用qt开发的界面，UI设计的很漂亮，使用也特别简单，可以录屏，虚拟相机，推流，ndi等功能，插件化开发代码也很不错
 
-## IM工具
+### IM工具
 * [tdesktop](https://github.com/telegramdesktop/tdesktop) telegramdesktop官方的桌面客户端，编译起来比较费劲，代码和功能都优秀
 * [teamgram-tdesktop](https://github.com/teamgram/teamgram-tdesktop) 开源teamgram-server开的tdesktop分支
 * [flamingo](https://github.com/balloonwj/flamingo) 开源im,包含server desktop android三个子项目
@@ -152,6 +159,7 @@
 * [abseil-cpp](https://github.com/abseil/abseil-cpp) google开源的基础库
 * [boost](https://github.com/boostorg/boost) boost工具库
 * [concurrentqueue](https://github.com/cameron314/concurrentqueue) 并发队列
+* [libco](https://github.com/Tencent/libco)微信团队开源的协成库
 
 ### 构建工具
 * [cmake](https://github.com/Kitware/CMake) 跨平台构建工具，用的最广泛的工具，android/linux/windows几乎哪都再用
@@ -166,6 +174,7 @@
 ### 无分类工具
 * [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 计算机网速流量检测工具，cmake构建的版本[TrafficMonitor](https://github.com/holylong/TrafficMonitor)
 * [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) 状态栏透明
+* [CopyQ](https://github.com/hluk/CopyQ)跨平台剪切板管理工具
 
 ## golang项目
 * [frp](https://github.com/fatedier/frp) 代理工具将局域网主机暴露到公网上，远程办公必备
